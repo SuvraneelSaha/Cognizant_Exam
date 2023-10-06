@@ -1,4 +1,4 @@
-public class Book
+public class O6_Book
 {
 private  String isbnNo;
 private String bookName;
@@ -10,7 +10,7 @@ public String toString()
 
 }
 
-public  Book(String isbnNo,String bookName,double price)
+public O6_Book(String isbnNo, String bookName, double price)
 {
     super();
     this.isbnNo = isbnNo;
@@ -18,7 +18,7 @@ public  Book(String isbnNo,String bookName,double price)
     this.price = price;
 }
 
-public Book()
+public O6_Book()
 {
     super();
 }
